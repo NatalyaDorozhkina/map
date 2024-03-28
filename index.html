@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>map</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <div class="shouldrotate">
+      <div class="text2">
+        переверните устройство
+     </div>
+    </div>
+    <section class="screen1">
+      <div class="group1">
+        <img class="underletter" alt="" src="images/underletter.png" />
+        <img class="undercycle" alt="" src="images/undercycle.png" />
+        <img class="cycle" alt="" src="images/cycle.png" />
+        <img class="letter" alt="" src="images/letter.png" />
+        <div class="leftcorner">
+          <img class="hat" alt="" src="images/hat.png" />
+          <img class="icecream" alt="" src="images/icecream.png" />
+          <img class="decorations" alt="" src="images/decorations.png" />
+        </div>
+        <img class="mapkrug" alt="" src="images/mapkrug.svg" />
+      </div>
+      <div class="centergroup">
+        <img class="underbutton" alt="" src="images/underbutton.png" />
+        <button class="text1" onclick="showSection('screen2')">открыть</button>
+      </div>
+      <div class="group2">
+        <img class="letter2" alt="" src="images/letter2.png" />
+        <img class="cloud" alt="" src="images/cloud.png" />
+        <img class="cloudempty" alt="" src="images/cloudempty.png" />
+        <img class="picnic" alt="" src="images/picnic.png" />
+        <img class="flower" alt="" src="images/flower.png" />
+        <img class="toy" alt="" src="images/toy.png" />
+        <img class="butterfly" alt="" src="images/butterfly.png" />
+      </div>
+    </section>
+
+    <section class="screen2">
+      <div class="block1">
+        <img class="childhood" alt="" src="images/childhood.png" />
+        <button class="zona1" onclick="showSection('screen3')">
+          зона<br />детская
+        </button>
+      </div>
+      <div class="block2">
+        <img class="cake" alt="" src="images/cake.png" />
+        <button class="zona2" onclick="showSection('screen4')">
+          сладкое<br />счастье
+        </button>
+      </div>
+      <div class="block3">
+        <img class="lake" alt="" src="images/lake.png" />
+        <button class="zona3" onclick="showSection('screen5')">
+          озеро<br />меланхолии
+        </button>
+      </div>
+      <button class="krestik" onclick="showSection('screen1')">
+        <img src="images/krestik.svg" alt="Button Image" />
+      </button>
+      <img class="mapkrug" alt="" src="images/mapkrug.svg" />
+    </section>
+
+    <section class="screen3">
+      <!-- игрушки -->
+    <div class="forplaying"> 
+        <img class="toysplace" alt="" src="images/toysplace.png" />
+        <img class="podpis" alt="" src="images/podpis.svg" />
+        <img
+          class="bear dragObject"
+          alt=""
+          src="images/bear.png"
+        />
+        <img
+          class="car dragObject"
+          alt=""
+          src="images/car.png"
+        />
+      </div>
+      <!--  -->
+
+      <div class="boxmain">
+        <img class="psp dragObject" alt="" src="images/psp.png" />
+        <img class="rabit dragObject" alt="" src="images/rabit.png" />
+        <img class="box" alt="" src="images/box.png" />
+      </div>
+
+      <div class="paintdeskmain">
+        <img class="paintdesk" src="images/paintdesk.png" alt="" />
+        <canvas id="drawCanvas"></canvas>
+      </div>
+
+      <div class="tvmain">
+        <img class="tv" alt="" src="images/tv.png"/>
+      </div>
+
+      <img class="greencloud" alt="" src="images/greencloud.png" />
+
+      <button class="krestik" onclick="showSection('screen2')">
+        <img src="images/krestik.svg" alt="Button Image" />
+      </button>
+      <img class="childkrug" alt="" src="images/childmap.svg" />
+    </section>
+
+    <section class="screen4">
+      <img class="leftline4" alt="" src="images/leftline4.png">
+      <img class="rightline4" alt="" src="images/rightline4.png">
+      <img class="longshelf" alt="" src="images/longshelf.png">
+      <img class="shortshelf" alt="" src="images/shortshelf.png">
+      <img class="table" alt="" src="images/table.png">
+      <img class="plate" alt="" src="images/plate.png">
+
+      <img class="cacao dragObject" alt="" src="images/cacao.png">
+      <img class="wafer dragObject" alt="" src="images/wafer.png">
+      <img class="cookiesbrown dragObject" alt="" src="images/cookiesbrown.png">
+      <img class="chocolate dragObject" alt="" src="images/chocolate.png">
+      <img class="cookieswhite dragObject" alt="" src="images/cookieswhite.png">
+
+      <img class="sweetkrug" alt="" src="images/sweetkrug.svg"/>
+      <button class="krestik" onclick="showSection('screen2')">
+        <img src="images/krestik.svg" alt="Button Image" />
+      </button>
+    </section>
+
+    <section class="screen5">
+      <img class="linebottom" alt="" src="images/linebottom.png">
+      <img class="linetop" alt="" src="images/linetop.png">
+      <img class="seaweed" alt="" src="images/seaweed.png">
+      <img class="pearl" alt="" src="images/pearl.png">
+      <img class="seaweed2" alt="" src="images/seaweed2.png">
+      <img class="fish fishclick" alt="" src="images/fish.png">
+      <img class="fish2 fishclick" alt="" src="images/fish.png">
+      <img class="fish3 fishclick" alt="" src="images/fish.png">
+      <img class="fish4 fishclick" alt="" src="images/fish.png">
+
+      <img class="mapkrug" alt="" src="images/lakekrug.svg"/>
+      <img class="waterlily" alt="" src="images/waterlily.png">
+      <img class="waterlily2" alt="" src="images/waterlily.png">
+      <img class="waterlily3" alt="" src="images/waterlily.png">
+      <img class="waterlily4" alt="" src="images/waterlily.png">
+      <img class="waterlily5" alt="" src="images/waterlily.png">
+
+      <div id="congrats" style="display: none;">поздравляем! <br>вы поймали всех <br> рыбок-грустинок</div>
+      <button id="reset-button" style="display: none;">начать заново</button>
+
+      <button class="krestik" onclick="showSection('screen2')">
+        <img src="images/krestik.svg" alt="Button Image" />
+      </button>
+    </section>
+
+    <script src="javascripts/java-script.js" charset="UTF-8"></script>
+  </body>
+</html>

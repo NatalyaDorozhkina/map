@@ -1,0 +1,147 @@
+.screen5{
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+
+.linebottom{
+   width: 60%;
+   position: absolute;
+   bottom: -3vw;
+   left: -1%;
+}
+
+.linetop{
+  width: 47%;
+  right: -1%;
+  position: absolute;
+  
+}
+
+.seaweed{
+  position: absolute;
+  width: 45%;
+  bottom: -9vw;
+  left: -9%;
+}
+
+.seaweed2{
+  position: absolute;
+  width: 38%;
+  top: -9vw;
+  right: -8%;
+  z-index: 1;
+}
+
+.pearl{
+  position: absolute;
+  width: 15%; 
+  height: auto;
+  left: 0;
+  bottom: 20vw;
+
+}
+
+.waterlily, .waterlily2, .waterlily3, .waterlily4, .waterlily5{
+  position: absolute;
+  width: 12.5%;
+  z-index: 2;
+  
+}
+
+.waterlily{
+  top: 28vw;
+  right: 6%;
+  rotate: -40deg;
+}
+
+.waterlily2{
+  top: 44vw;
+  right: 6%;
+  rotate: -80deg;
+}
+
+.waterlily3{
+  top: 16vw;
+  right: 38%;
+}
+
+.waterlily4{
+  top: 2vw;
+  right: 48%;
+  rotate: -80deg;
+}
+
+.waterlily5{
+  top: 2vw;
+  right: 60%;
+  rotate: 20deg;
+}
+
+.fish, .fish2, .fish3, .fish4{
+  position: absolute;
+  width: 19%;
+  z-index: 0;
+  animation: fishSwim2 16s linear infinite;
+}
+
+.fishclick{
+  cursor: grab;
+}
+
+.fish{
+  bottom: 1vw;
+  right: 22%;
+}
+
+.fish2{
+  bottom: 11vw;
+  right: 39%;
+  rotate: -25deg;
+}
+
+.fish3{
+  bottom: 17vw;
+  right: 56%;
+  rotate: 30deg;
+}
+
+.fish4{
+  bottom: 28vw;
+  right: 71%;
+  rotate: -10deg;
+}
+
+
+@keyframes fishSwim2 {
+  0% {
+    transform: translateX(90vw) translateY(90vh);
+  }
+  100% {
+    transform: translateX(-80vw) translateY(-80vh);
+  }
+}
+
+#congrats, #reset-button {
+  font-size: 24px;
+  position: absolute;
+  z-index: 5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 3vw;
+  letter-spacing: 0.5vw;
+}
+
+#reset-button{
+  top: 65%;
+  color: #B2EFA7;
+  background: none; 
+  border: none;
+  left: 35.5%;
+}
+
+#congrats{
+  top: 47%;
+  left: 36%;
+  color: #0793B7;
+}

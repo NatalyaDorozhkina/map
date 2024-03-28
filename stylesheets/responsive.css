@@ -1,0 +1,13 @@
+@media only screen and (orientation: portrait) {
+
+    .shouldrotate {display: block;}
+    .screen1 {display: none !important;}
+    .screen2 {display: none !important;}
+    .screen3 {display: none !important;}
+    .screen4 {display: none !important;}
+    .screen5 {display: none !important;}
+  }
+  
+@media only screen and (orientation: landscape) {
+    .shouldrotate {display: none;}
+  } 

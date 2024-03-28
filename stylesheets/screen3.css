@@ -1,0 +1,131 @@
+.screen3{
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+
+#drawCanvas{
+   width: 59%;
+   height: 50%;
+   position: absolute;
+   top: 25%;
+   left: 25%;
+}
+
+.paintdeskmain{
+  position: absolute;
+  right: 13.5%;
+  top: 0.1%;
+  width: 40%;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.paintdesk{
+   width: 100%;
+}
+
+.childkrug{
+    position: absolute;
+    width: 13%;
+    animation: spin 17s linear infinite;
+    left: 1%;
+    top: 1%;
+}
+
+.forplaying{
+  width: 54.5%;
+  top: 6%;
+  left: -1%;
+  height: auto;
+  /* position: absolute; */
+  /* display: flex; */
+}
+
+.toysplace{
+  /* position: relative; */
+  width: 100%;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+
+.dragObject {
+  cursor: grab;
+  z-index: 40;
+}
+
+.bear{
+  width: 15%;
+  position: absolute;
+  left: 10%;
+  top: 9vw;
+}
+
+.car{
+  width: 18%;
+  position: absolute;
+  left: 21%;
+  top: 12vw;
+}
+
+.psp{
+  width: 16%;
+  position: absolute;
+  left: 3%;
+  bottom: 6vw;
+}
+
+.rabit{
+  width: 14%;
+  position: absolute;
+  left: 14%;
+  bottom: 6vw;
+}
+
+.podpis{
+  margin-top: -16%;
+  margin-left: 50%;
+  pointer-events: none;
+  user-select: none;
+  width: 27%;
+}
+
+.boxmain{
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.box{
+  z-index: 50;
+  position: absolute;
+  width: 27%;
+  left: 3%;
+}
+
+.tvmain{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  background-image: url("../images/film1.png");
+  background-size: 78%;
+  background-position: 24% 51%;
+  background-repeat: no-repeat;
+  bottom: 1%;
+  right: 28%;
+}
+
+.tv{
+  width: 100%;
+}
+
+.greencloud{
+  position: absolute;
+  right: 1%;
+  top: 26%;
+  width: 20%;
+}

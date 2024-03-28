@@ -1,0 +1,189 @@
+
+body{
+  background-image: url("../images/back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: fixed;
+}
+
+html,
+body,
+.screen1 {
+  height: 100%;
+  width: 100%;
+}
+
+
+.screen1{ 
+  display: flex;
+  justify-content: center;
+
+} 
+
+.mapkrug{
+  position: absolute;
+  width: 22%;
+  animation: spin 17s linear infinite;
+  left: -1%;
+  top: -1.5%;
+}
+
+.underbutton{
+  position: absolute;
+  z-index: 1;
+  width: 250px;
+}
+
+.underletter{
+  position: absolute;
+  width: 36%;
+  right: -16%;
+  top: -1%;
+}
+
+.undercycle{
+  position: absolute;
+  width: 42%;
+  right: 22%;
+  top: -5%;
+}
+
+.cloud{
+  position: absolute;
+  width: 25%;
+  left: -2%;
+  bottom: 0.01%;
+}
+
+.cloudempty{
+  position: absolute;
+  width: 29%;
+  right: 0.5%;
+  bottom: 0.01%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);}
+  }
+
+.text1{
+  position: relative;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 46px;
+  color: #0793B7;
+  letter-spacing: 4px;
+  background: none; 
+  border: none;
+}
+
+.centergroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cycle{
+  position: absolute;
+  right: 12%;
+  width: 47%;
+}
+
+.letter{
+  position: absolute;
+  width: 25%; 
+  right: 1%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+.hat{
+  position: absolute;
+  width: 29%; 
+  left: 21%;
+  top: 10px;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.icecream{
+   position: absolute;
+   width: 24%; 
+   left: 15%;
+   top: 27%;
+}
+
+.decorations{
+  position: absolute;
+  width: 30%;
+  left: -3%;
+  top: -1%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+.picnic{
+  position: absolute;
+  width: 45%;
+  bottom: -1%;
+  left: 27%
+}
+
+.letter2{
+  position: absolute;
+  width: 25%;
+  left: -1%;
+  bottom: 1%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 0.3 s;
+}
+
+.flower{
+  position: absolute;
+  width: 25%;
+  left: 3%;
+  bottom: 1%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1.3s;
+}
+
+.toy{
+  position: absolute;
+  width: 27%;
+  right: 0.5%;
+  bottom: 1%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 0.6s;
+}
+
+.butterfly{
+  position: absolute;
+  width: 23%;
+  right: 2%;
+  bottom: 18%;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1.8 s;
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0; /* Начальная прозрачность */
+  }
+  to {
+      opacity: 1; /* Конечная непрозрачность */
+  }
+}
